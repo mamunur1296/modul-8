@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border: 4px solid blue;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .tiger img {
+            width: 100%;
+        }
+
+        .splite {
+            width: 50%;
+        }
+
+        .splite img {
+            width: 100%;
+        }
+
+        .continerrr {
+            display: flex;
+        }
+
+        @media screen and (max-width:576px) {
+            .continerrr {
+                flex-direction: column;
+            }
+
+            .splite {
+                width: 100%;
+            }
+        }
+
+        .contener {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 0 40px;
+            box-shadow: 10px 10px 10px gray;
+        }
+
+        .food {
+
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 10px 10px 10px gray;
+
+
+
+        }
+
+        .food img {
+            width: 100%;
+        }
+
+        .food h1 {
+            font-size: 50px;
+        }
+
+        .food h4 {
+            background-color: tomato;
+            padding: 5px 15px;
+            border-radius: 10px;
+            width: 25%;
+            text-align: center;
+            color: white;
+        }
+
+        .food p {
+            text-align: justify;
+        }
+
+        .food button {
+            padding: 5px 15px;
+            background-color: tomato;
+            color: white;
+            font-size: 25px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .food button:hover {
+            background-color: brown;
+        }
+
+        @media screen and (max-width: 576px) {
+            .food {
+                background-color: saddlebrown;
+            }
+
+            .contener {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .food {
+                background-color: blueviolet;
+            }
+
+            .contener {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1> responsive website responsive website </h1>
+    </section>
+    <section class="tiger">
+        <h3>Tiger hoooo</h3>
+        <img src="tiger.jpg" alt="">
+    </section>
+    <section>
+        <h2>two pairts continer</h2>
+        <div class="continerrr">
+            <div class="splite">
+                <img src="tiger.jpg" alt="">
+
+            </div>
+            <div class="splite">
+                <img src="food.jpg" alt="">
+
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="contener">
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+            <div class="food">
+                <img src="food.jpg" alt="">
+                <h1>item 1</h1>
+                <h4>100$</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore repellat ad, non aliquam
+                    reprehenderit
+                    doloremque commodi neque ducimus dolorem et culpa accusamus alias. Nulla necessitatibus ducimus
+                    voluptatibus sapiente dolores illum.</p>
+                <button>order now</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
